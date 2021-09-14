@@ -4,9 +4,6 @@ import chalk from "chalk";
 import Position from "./position";
 import fs from "fs";
 
-//
-// Start the prompt
-//
 prompt.start();
 
 console.log("Hi!");
@@ -14,9 +11,6 @@ console.log(
   "In the following prompt, please paste the full JSON extracted from Binance, as explained in the README"
 );
 
-//
-// Get two properties from the user: username and email
-//
 prompt.get(["json"], (err, result) => {
   let positions: Position[];
   try {
