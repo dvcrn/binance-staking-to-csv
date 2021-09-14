@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import prompt from "prompt";
 import chalk from "chalk";
 import Position from "./position";

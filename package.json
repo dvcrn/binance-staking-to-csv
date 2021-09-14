@@ -8,11 +8,13 @@
     "typescript": "^4.4.3"
   },
   "bin": {
-    "binance-staking-to-csv": "./index.js"
+    "binance-staking-to-csv": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p ."
   },
   "name": "binance-staking-to-csv",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "type": "module"
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "license": "MIT"
 }
